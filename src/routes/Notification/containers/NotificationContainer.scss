@@ -1,0 +1,99 @@
+@import '../../../styles/variables';
+
+.notification-content-right{
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+
+.notification-content-body{
+  position: fixed;
+  top: 10%;
+  background-color: #FFFFFF;
+  height: 90%;
+  width: 81%;
+  margin: 1%;
+  overflow: auto;
+  &-tools{
+
+  }
+  &-lower-tools{
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    z-index: 1000;
+  }
+  &-lower-table{
+
+    td,th {
+      border-style: none !important;
+    }
+    thead{
+      background-color:#677886;
+      border-style: none;
+      height: 50px;
+      color:#ffffff;
+    }
+    th{
+      height: 30px;
+      max-width:100px !important;;
+      padding-bottom: 15px !important;
+      padding-left: 10px !important;
+    }
+    td{
+
+      height:30px;
+      padding-top: 20px;
+      max-width:100px !important;
+      overflow: hidden;
+    }
+    td:first-child{
+
+      max-width:100px;
+    }
+
+    margin: 10px;
+    background-color: #ffffff;
+
+    tr{
+
+      width: 700px;
+    }
+  }
+
+  &-type {
+    &-title {
+      display: inline-block;
+      margin-right: 4px;
+      width: 110px;
+    }
+    &-flag {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;   
+    }  
+  }
+
+}
+
+.notification-content-item {
+  color: #23527c;
+  cursor: pointer;
+}
+
+.pagination{
+  top: 70%;
+  right: 3%;
+  position:absolute;
+  &-text{
+    margin-left: 30px;
+  }
+}
+
+// let table length droplist disappear
+#table-notification_length{
+  display: none;
+}
+
