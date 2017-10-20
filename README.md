@@ -1,3 +1,3 @@
 # reactjs
 
-There are some snippets about React, Redux, React-router, Webpack and Chai.
+There are some snippets about ES5/ES6, React, Redux, React-router, Webpack and Chai.
